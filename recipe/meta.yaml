@@ -1,5 +1,5 @@
 {% set name = "napari-crop" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-crop-{{ version }}.tar.gz
-  sha256: ae02be9acb776d5adc64bc6fb59ade03ae90c675e23837a6418658c3465a9fbf
+  sha256: e2b0c642df9e3345f43590c66a4a942a089d470cdba422291e8ddc2dbd008774
 
 build:
   noarch: python
